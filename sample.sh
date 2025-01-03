@@ -1,0 +1,1 @@
+python scripts/image_sample_defense.py --diffusion_steps 100 --num_samples 10000 --image_size 32 --num_channels 128 --num_res_blocks 3 --noise_schedule cosine --use_kl False --batch_size 64 --data_dir /x_clean/val --model_path output/ema_0.9999_2000000.pt
